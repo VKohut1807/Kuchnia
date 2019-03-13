@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+
+<!-- Header -->
+	<div class="jumbotron jumbotron-fluid text-center" style="background-color: #e3bfad">
+
+		<div class="container">
+			<img class="mx-auto d-block rounded-circle img-fluid" src="MyFoto.jpg" style="width: 300px" alt=""><br>
+			<h1 card-text>PORTFOLIO</h1>
+			<p card-text>Tatiana Lytvynets</p>	
+		</div>				
+	</div>
+
+
+<!-- MENU -->
+<nav class="navbar navbar-expand-lg navbar-light small sticky-top" style="background-color: #cf1c24">
+	<a class="navbar-brand btn" style="background-color: #7e3d4a" href="#" id="Menu">MENU</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GALLERY</a>
+				<div class="dropdown-menu dropdown-menu-right" style="background-color: #cf1c24" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item small" href="#np1">NP 1</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item small" href="#np2">NP 2</a>
+				</div>				
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#AboutMe">ABOUT ME</a>
+			</li>
+			<li class="nav-item">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="navbar-brand" href="https://vk.com/">
+						<img src="vk.png" width="25" height="25" class="d-inline-block align-top" alt="">		
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="navbar-brand" href="https://www.facebook.com/">
+						<img src="facebook.png" width="25" height="25" class="d-inline-block align-top" alt="">	
+						</a>						
+					</li>
+					<li class="nav-item">
+						<a class="navbar-brand" href="https://www.instagram.com/">
+						<img src="instagram.png" width="25" height="25" class="d-inline-block align-top" alt="">
+						</a>
+					</li>
+				</ul>
+			</li>
+
+		</ul>
+	</div>
+</nav><br><br>
+
+<!-- FOTO & DESCRIPTION -->
+	<div class="jumbotron" id="navbarDropdown" style="background-color: #e0b9ca">
+		<h1 class="text-*-left font-weight-bold">GALLERY</h1><br>
+		
+			<div class="container col-md-6 mx-auto rounded">
+
+				<div id="carous" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ul class="carousel-indicators">
+						<li data-target="#carous" data-slide-to="0" class="active"></li>
+						<li data-target="#carous" data-slide-to="1"></li>
+						<li data-target="#carous" data-slide-to="2"></li>
+					</ul>
+
+					<!-- The slideshow -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="mx-auto d-block img-fluid" src="MyFoto.jpg" alt="" style="width: 300px">
+							<div class="carousel-caption">
+								<h3>The name of the dish</h3>
+								<p>Description</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="mx-auto d-block img-fluid" src="MyFoto.jpg" alt="" style="width: 300px">
+							<div class="carousel-caption">
+								<h3>The name of the dish</h3>
+								<p>Description</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="mx-auto d-block img-fluid" src="MyFoto.jpg" alt="" style="width: 300px">
+							<div class="carousel-caption">
+								<h3>The name of the dish</h3>
+								<p>Description</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#carous" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#carous" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>	
+			</div><br>	
+
+	
+		<div class="jumbotron" style="background-color: #a96d8e">
+			<h3 id="np1">NP 1</h3>
+			<div class="container">
+				<div class="card-columns" >
+					<div class="card" style="background-color: #e0b9ca">
+						<div class="card-body">
+							<img class="card-img-bottom img-thumbnail" src="MyFoto.jpg" alt="">
+								<button class="btn" data-toggle="collapse" data-target="#ddemo" style="background-color: #7e3d4a">
+									<li class="nav-item" style="list-style: none;">Info
+										<img src="info.png" width="25" height="25" class="d-inline-block align-top" alt="">
+									</li>
+								</button>
+								<div id="ddemo" class="collapse">
+									<div class="card-body">
+										<h3 class="card-text">The name of the dish</h3>
+										<p class="card-text">Description</p>
+									</div>
+								</div>
+						</div>
+					</div> 
+					<div class="card" style="background-color: #e0b9ca">
+						<div class="card-body">
+							<img class="card-img-top img-thumbnail" src="MyFoto.jpg" alt="">
+								<button class="btn" data-toggle="collapse" data-target="#ddemo1" style="background-color: #7e3d4a">
+									<li class="nav-item" style="list-style: none;">Info
+										<img src="info.png" width="25" height="25" class="d-inline-block align-top" alt="">
+									</li>
+								</button>
+								<div id="ddemo1" class="collapse">
+									<div class="card-body">
+										<h3 class="card-text">The name of the dish</h3>
+										<p class="card-text">Description</p>
+									</div>
+								</div>
+						</div>
+					</div> 
+					<div class="card" style="background-color: #e0b9ca">
+						<div class="card-body">
+							<img class="card-img-top img-thumbnail" src="MyFoto.jpg" alt="">
+								<button class="btn" data-toggle="collapse" data-target="#ddemo2" style="background-color: #7e3d4a">
+									<li class="nav-item" style="list-style: none;">Info
+										<img src="info.png" width="25" height="25" class="d-inline-block align-top" alt="">
+									</li>
+								</button>
+								<div id="ddemo2" class="collapse">
+									<div class="card-body">
+										<h3 class="card-text">The name of the dish</h3>
+										<p class="card-text">Description</p>
+									</div>
+								</div>
+						</div>
+					</div> 
+					<div class="card" style="background-color: #e0b9ca">
+						<div class="card-body">
+							<img class="card-img-top img-thumbnail" src="MyFoto.jpg" alt="">
+								<button class="btn" data-toggle="collapse" data-target="#ddemo3" style="background-color: #7e3d4a">
+									<li class="nav-item" style="list-style: none;">Info
+										<img src="info.png" width="25" height="25" class="d-inline-block align-top" alt="">
+									</li>
+								</button>
+								<div id="ddemo3" class="collapse">
+									<div class="card-body">
+										<h3 class="card-text">The name of the dish</h3>
+										<p class="card-text">Description</p>
+									</div>
+								</div>
+						</div>
+					</div> 
+					<div class="card" style="background-color: #e0b9ca">
+						<div class="card-body">
+							<img class="card-img-top img-thumbnail" src="MyFoto.jpg" alt="">
+								<button class="btn" data-toggle="collapse" data-target="#ddemo4" style="background-color: #7e3d4a">
+									<li class="nav-item" style="list-style: none;">Info
+										<img src="info.png" width="25" height="25" class="d-inline-block align-top" alt="">	
+									</li>
+								</button>
+								<div id="ddemo4" class="collapse">
+									<div class="card-body">
+										<h3 class="card-text">The name of the dish</h3>
+										<p class="card-text">Description</p>
+									</div>
+								</div>
+						</div>
+					</div> 
+				</div>	
+			</div>
+		</div>
+		<div class="jumbotron" style="background-color: #a96d8e">
+			<h3 id="np2">NP 2</h3>
+			<div class="container">
+				<div class="card-columns" >
+					<div class="card" style="background-color: #e0b9ca">
+						<div class="card-body">
+							<img class="card-img-bottom img-thumbnail" src="MyFoto.jpg" alt="">
+								<button class="btn" data-toggle="collapse" data-target="#mdemo" style="background-color: #7e3d4a">
+									<li class="nav-item" style="list-style: none;">Info
+										<img src="info.png" width="25" height="25" class="d-inline-block align-top" alt="">
+									</li>
+								</button>
+								<div id="mdemo" class="collapse">
+									<div class="card-body">
+										<h3 class="card-text">The name of the dish</h3>
+										<p class="card-text">Description</p>
+									</div>
+								</div>
+						</div>
+					</div> 
+					<div class="card" style="background-color: #e0b9ca">
+						<div class="card-body">
+							<img class="card-img-top img-thumbnail" src="MyFoto.jpg" alt="">
+								<button class="btn" data-toggle="collapse" data-target="#mdemo1" style="background-color: #7e3d4a">
+									<li class="nav-item" style="list-style: none;">Info
+										<img src="info.png" width="25" height="25" class="d-inline-block align-top" alt="">
+									</li>
+								</button>
+								<div id="mdemo1" class="collapse">
+									<div class="card-body">
+										<h3 class="card-text">The name of the dish</h3>
+										<p class="card-text">Description</p>
+									</div>
+								</div>
+						</div>
+					</div> 
+				</div>	
+			</div>
+		</div>
+
+	</div>
+
+
+
+<!-- MY CV -->
+	<div class="jumbotron " id="AboutMe" style="background-color: #7e3d4a">
+		<h1 class="text-*-left font-weight-bold">ABOUT ME</h1><br>
+			<div class="card-deck card-columns">
+				<div class="card bg-light col-md-8">
+					<div class="card-body">
+						<div class="card-text text-*-left">
+							<dl>
+								<br><h3><dt>Doświadczenie</dt></h3><hr>
+									<dd>
+										<p>
+											<a class="font-weight-bold" style="float: right;"> 01.2019 - teraz</a><br>
+											<a class="font-weight-bold"> „Chilli Lunch Bar”,</a> Kraków<br>
+											<a class="font-italic">Kucharz</a><br>
+											<a class="small">Zakres obowiązków: -----</a>
+										</p>
+									</dd><br>
+									<dd>
+										<p>
+											<a class="font-weight-bold" style="float: right;">07.2018 - 12.2018</a><br>
+											<a class="font-weight-bold"> „Krakowski Kumpir”,</a> Kraków<br>
+											<a class="font-italic">Kucharz małej gastronomii</a><br>
+											<a class="small">Zakres obowiązków: -----</a>
+										</p>
+									</dd> 
+
+								<br><h3><dt>Wykształcenie</dt></h3><hr>
+									<dd>
+										<p>
+											<a class="font-weight-bold" style="float: right;"> 09.2014 - 02.2017</a><br>
+											<a class="font-weight-bold">Starowiżowski Profesjonalny Liceum,</a> (UA)<br>
+											<a class="font-italic">Kucharz - Cukiernik</a><br>
+										</p>	
+									</dd>
+									
+								<br><h3><dt>Umiejętności</dt></h3><hr>
+									<dd>
+										<ul>
+											<li>Motywacja do rozwijania umiejętności kulinarnych</li>
+											<li>Umiejętności skutecznej współpracy w zespole</li>
+											<li>Zaangażowania w realizację swoich zadań</li>
+											<li>Dobra organizacja czasu pracy</li>
+											<li>Dyspozycyjność</li>
+											<li>Sumienność i punktualność</li>
+											<li>Wykształcenie gastronomiczne</li>
+											<li>Wiedza z zakresu HACCP</li>
+											<li>Dyscyplina w zachowaniu czystości i higieny pracy</li>
+											<li>Odpowiedzialność  i kreatywność</li>
+											<li>Innowacyjność</li>
+											<li>Zdolność do harmonijnej pracy w warunkach stresu</li>
+											<li>Orientacja na klienta i determinacja w dążeniu do celu</li>
+										</ul>
+									</dd>
+
+								<br><h3><dt>Języki</dt></h3><hr>
+										<dd>
+										<div class="table text-left">
+									<table class="table table-borderless table-sm">
+										<tbody>
+											<tr>
+												<td class="col-md-1">j.polski</td>
+												<td class="col-md-11">
+													<!-- <div class="card"> -->
+														<div class="progress">
+															<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">75%
+															</div>
+														</div>
+													<!-- </div> -->
+												</td>
+											</tr>
+											<tr>
+												<td class="col-md-1">j.rosyjski</td>
+												<td class="col-md-11">
+													<!-- <div class="card"> -->
+														<div class="progress">
+															<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%">95%
+															</div>
+														</div>
+													<!-- </div> -->
+												</td>
+											</tr>
+											<tr>
+												<td class="col-md-1">j.ukraiński</td>
+												<td class="col-md-11">
+													<!-- <div class="card"> -->
+														<div class="progress">
+															<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%">100%
+															</div>
+														<!-- </div> -->
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+										</dd>
+
+								<br><h3><dt>Zainteresowania</dt></h3><hr>
+										<dd>
+											<p>
+												Filmy, książki, muzyka, podróże, sport, moda. 
+											</p>
+										</dd>
+
+							</dl>
+						</div>
+					</div>
+				</div>
+				<div class="card bg-light col-md-4">
+					<div class="card-body">
+						<img class="card-img-bottom rounded " src="MyFoto.jpg" alt="My Foto">
+						<div class="card-body">
+							<h2 class="card-title text-center">Tetiana<br> <a class="font-weight-bold">Lytvynets</a></h2>
+							<p class="card-title text-center font-italic">Kucharz</p>
+							<hr>
+							<div class="card-text text-*-left">
+								<dl>
+									<dt>Adres zamieszkania:</dt>
+									<dd>31-586, Kraków</dd>
+									
+									<dt>Data urodzenia:</dt>
+									<dd>22.03.1998</dd>
+									
+									<dt>Obywatelstwo:</dt>
+									<dd>UA</dd>
+
+									<dt>Email:</dt>
+									<dd>tetianalytvynets1488<wbr>@gmail.com</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+
+
+		<!-- ©  -->
+	<h7><center class="text-success small">© 2019 – Vasyl Kohut</center></h7>
+
+
+</body>
+</html>
